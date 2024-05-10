@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comic Page</title>
+	 <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+		    background-color:black;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 10px;
+        }
+        header {
+            background-color: transparent;
+            padding: 50px;
+            text-align: center;
+			 color: white;
+		
+        }
+        h1 {
+            margin: 3;
+        }
+        .comic-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:180vh;
+        }
+        .comic {
+            width: 60%;
+            max-width:500px;
+            border: 10px solid #ddd;
+            padding: px;
+            background-color: #fff;
+        }
+        .comic img {
+            max-width:100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Comic Page</h1>
+    </header>
+    <div class="comic-container">
+        <div class="comic">
+            <img src="comic1.jpeg" alt="Comic Image">
+			<P Font color="white">No comic book recommendation list is complete without the granddaddy of all comic books.
+			Watchmen changed the way the world saw superheroes. It remains one of the most influential 
+			comic books ever and — despite the so-so movie adaptation and an upcoming HBO series — I’d 
+			highly recommend reading the comic. Watchmen is not a ‘cool’ comic book; it’s a visceral 
+			upturning of the superhero genre. Between Manhattan and Ozymandias, would you really choose
+			to live in a world with superheroes? Watchmen is what happens when you trust in absolute power, 
+			and give your leaders unlimited mandate. Pro-tip: Do not miss the symmetrical issue.
+            </P>
+			<button  class="btn btn-primary btn-lg" >read more</button>
+    </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 My Comic Page</p>
+    </footer>
+</body>
+</html>

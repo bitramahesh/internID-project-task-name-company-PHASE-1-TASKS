@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee details</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: white;
+    }
+    .EMP-table {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: lightpink;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+    .EMP-table th,
+    .EMP-table td {
+      text-align: center;
+    }
+    .EMP-table th {
+      background-color: skyblue;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <table class="table EMP-table mt-5">
+        <thead>
+          <tr>
+            <th scope="col">Type</th>
+            <th scope="col">Capacity</th>
+            <th scope="col">Cost</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Basic</td>
+            <td>Capacity 10tons<br>can't be expandable<br>only basic support</td>
+            <td>30,000</td>
+          </tr>
+          <tr>
+            <td>medium</td>
+            <td>Capacity 50tons<br>can be expandable to 10 tons<br>has some advance support</td>
+            <td>40,000</td>
+          </tr>
+          <tr>
+            <td>advance</td>
+            <td>capacity 70tons<br>can be expandable to 30tons<br>has pro support</td>
+            <td>60,000</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

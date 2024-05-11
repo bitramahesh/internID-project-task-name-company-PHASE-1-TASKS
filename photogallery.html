@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Gallery</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* CSS for custom styling of the gallery */
+    .gallery-item {
+      padding: 30px;
+    }
+
+    .gallery-item img {
+      max-width: 50%;
+      height: 100%;
+      border: 1px solid #ddd;
+      border-radius: 50px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease-in-out;
+    }
+
+    .gallery-item img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 gallery-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_JwppAiKXCVeFD1nfBw41DgACAQ0qjop3fQ&s" alt="Image 1">
+    </div>
+    <div class="col-md-4 gallery-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-o3F5jHiJ0DXMOByGiAvgJxYxmgC0xeqXXw&s" alt="Image 2">
+    </div>
+    <div class="col-md-4 gallery-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5AowXjC-jIdCIRqLx74SmROIuqKE3X598mA&s" alt="Image 3">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 gallery-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHmbqhR08xvWdNbRENh3UqtvUYyCBWe5_D5Q&s" alt="Image 4">
+    </div>
+    <div class="col-md-4 gallery-item">
+      <img src="https://img.freepik.com/premium-vector/beautiful-eyes-drawn-using-wpap-art-style-pop-art-vector-illustration_675380-170.jpg" alt="Image 5">
+    </div>
+    <div class="col-md-4 gallery-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNdgpKj-uBLbR4z06r4JbTR3OEOgumQqvizw&s" alt="Image 6">
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
